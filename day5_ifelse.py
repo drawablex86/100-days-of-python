@@ -1,9 +1,15 @@
-var = input("Enter either 1 or 2: ")
-if var == "1":
-  print("You entered 1")
-elif var== "2"2: 
-  print("You entered 2")
-else :
-    print("Error, select either 1 or 2")
-print(''' \033[029m
-thank you for playing this game''')
+print("Which DC Character are you?")
+power = input("Do you like running? yes or no:")
+if power == "yes":
+  print("you are flash")
+else:
+  power =input("Are you strong? yes or no: ")
+if power =="yes":
+  print("you are superman")
+else:
+  power = input("Do you have machine parts in your body?yes or not: ")
+if power == "yes":
+  print("You are cyborg!")
+else:
+  print("You are not a DC character")
+  

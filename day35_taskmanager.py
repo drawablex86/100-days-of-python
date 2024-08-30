@@ -21,7 +21,7 @@ def menubar():
 # Print all tasks - Subroutine
 def myTasks():
     os.system("clear")
-    print(f"\n {green}Your Task List:\n-------------{default}")
+    print(f"\n{green}Your Task List:\n---------------{default}")
     for index in range(len(tasks)):
         print(f"{index+1}: {tasks[index].capitalize()}")
 

@@ -10,6 +10,17 @@ def prettyprint():
         print(f"{index+1}. {emaillist[index]}") #index + 1 to set the counter to start from 1 when displaying results
     time.sleep(1)
 
+def spam(): #spamming subsroutine
+    for index in range(len(emaillist)):
+        print(f"Dear, {emaillist[index]}")
+        print("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+        print("Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc,")
+        print("vitae aliquam nunc nunc vitae nunc. Sed euismod, nunc id aliquam")
+        print("tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc.")
+        time.sleep(2)
+        os.system("clear")
+
+
 
 while True:
     print("\nWelcome to Ultimate Spammer\n")
@@ -27,7 +38,10 @@ while True:
     elif menu =="3":
         prettyprint()
     elif menu == "4":
-        print("Spamming Initiated")
+        print("Spamming Initiated\n")
+        time.sleep(0.5)
+        os.system("clear")
+        spam()
     else:
         print("===Invalid Option===")
     time.sleep(1)

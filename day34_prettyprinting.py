@@ -6,10 +6,8 @@ emaillist = []
 def prettyprint():
     os.system("clear")
     print("Here is our Email Database\n--------------")
-    counter = 1
-    for email in emaillist:
-        print(f"{counter}. {email}")
-        counter += 1
+    for index in range(len(emaillist)): #using index and len to set the range for the for loop
+        print(f"{index+1}. {emaillist[index]}") #index + 1 to set the counter to start from 1 when displaying results
     time.sleep(1)
 
 

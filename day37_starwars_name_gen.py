@@ -8,9 +8,10 @@ while True:
     fname = f"{fn[:3]}{sn[:3]}".capitalize()
     maiden = input("\nEnter your mother's maiden name: ")
     city = input("\nEnter the city where your mom was born: ")
-    lname = f"{maiden[:2]}{city[-3:]}".capitalize()
+    lname = f"{maiden[:2]}{city[-3:]}".capitalize() # check the city variable on the implementation taking last three letters from the word
     print(f"{fname} {lname}")
     time.sleep(5)
     os.system("clear")
   else:
+    os.system("clear")
     exit()

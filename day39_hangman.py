@@ -21,9 +21,9 @@ while True:
     letterpicked.append(letter)
 
     if letter in word:
-        print("\nYou have found a letter")
+        print("\nYou have found a letter\n")
     else:
-        print("\n Try again!")
+        print("\nTry again!")
         lives -= 1
    # Simple way to do this:
    # Use a for loop to compare the letters in letterpicked with the letters in word
@@ -44,5 +44,5 @@ while True:
         break
     else:
         print(f"\n\nOnly {lives} left")
-    time.sleep(3)
+    time.sleep(2.5)
     os.system("clear")

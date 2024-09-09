@@ -2,7 +2,6 @@
 import os, time
 while True:
     myUser = {"name":"", "age":"", "email id":""}
-    print(myUser)
     print("Let's try Dictionaries of Python\n**********************\n")
     myUser["name"]= input("Enter your name: ")
     myUser["age"] = input("Enter your age: ")

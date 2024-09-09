@@ -14,4 +14,4 @@ bingo = [[number[0],number[1],number[2]],
          ]
 
 for row in bingo:
-    print(f"{row:^10}\n-----------")
+    print(f"{row}\n-----------")

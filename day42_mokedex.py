@@ -13,7 +13,7 @@ def getChar():
 
 def printChar():
     for key, value in myDB.items():
-        print(f"{key: <15}:{value}").title()
+        print(f"{key: <15}:{value}".title())
 
 
 
